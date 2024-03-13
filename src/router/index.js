@@ -5,6 +5,7 @@ import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "../layouts/sections/page-sections/page-headers/HeadersView.vue";
+import TestMap from "../layouts/sections/page-sections/IndiMap/TestMap.vue";
 import PageFeatures from "../layouts/sections/page-sections/features/FeaturesView.vue";
 import NavigationNavbars from "../layouts/sections/navigation/navbars/NavbarsView.vue";
 import NavigationNavTabs from "../layouts/sections/navigation/nav-tabs/NavTabsView.vue";
@@ -30,6 +31,11 @@ const router = createRouter({
       path: "/",
       name: "presentation",
       component: PresentationView,
+    },
+    {
+      path: "/pages/stations",
+      name: "stations",
+      component: TestMap,
     },
     {
       path: "/pages/landing-pages/about-us",

@@ -6,6 +6,8 @@ import router from "./router";
 // Nucleo Icons
 import "./assets/css/nucleo-icons.css";
 import "./assets/css/nucleo-svg.css";
+// mapbox
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import materialKit from "./material-kit";
 
