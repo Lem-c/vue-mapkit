@@ -41,20 +41,6 @@ defineProps({
           },
         ]
       },
-      {
-        name: "resources",
-        items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
-          {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
-          },
-          {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
-          }
-        ]
-      },
     ]
   }
 });

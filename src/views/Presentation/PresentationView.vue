@@ -8,7 +8,7 @@ import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
 //images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueMkHeader from "@/assets/img/ui-bg.jpg";
 import wavesWhite from "@/assets/img/waves-white.svg";
 
 //hooks
@@ -93,12 +93,11 @@ onUnmounted(() => {
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             :icon="{ component: 'receipt_long', color: 'success' }"
-            title="Utility Classes"
-            description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes."
+            title="Comtrade Dataset"
+            description="Exploring the sources of our inspiration and data reveals much."
             :action="{
               route:
-                'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
+                'https://comtradeplus.un.org/',
               label: { text: 'Read more' }
             }"
           />
@@ -120,7 +119,7 @@ onUnmounted(() => {
         loading="lazy"
       >
         <span class="mask bg-gradient-dark"></span>
-        
+        Content
       </div>
     </div>
 
