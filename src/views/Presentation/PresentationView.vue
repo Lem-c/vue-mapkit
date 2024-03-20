@@ -6,6 +6,7 @@ import NavbarMap from "../..//examples/navbars/NavbarMap.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
+import TradeMap from "../../examples/TradeMap.vue";
 
 //images
 import vueMkHeader from "@/assets/img/ui-bg.jpg";
@@ -56,7 +57,7 @@ onUnmounted(() => {
     </div>
   </Header>
 
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+  <div class="card card-body blur shadow-blur mx-3 mx-md-2 mt-n8">
 
     <div class="container">
       <div class="row">
@@ -66,7 +67,7 @@ onUnmounted(() => {
             :color="{ text: 'white', background: 'bg-gradient-success' }"
             :icon="{ component: 'flag', color: 'white' }"
             title="Getting Started"
-            description="Check the possible ways of working with our product and the necessary files for building your own project."
+            description="Check the components of this project and the necessary files for building a page."
             :action="{
               route:
                 'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
@@ -105,6 +106,16 @@ onUnmounted(() => {
       </div>
     </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="d-flex justify-content-center p-5">
+          <div class="w-90 ms-lg-5 text-center">
+            <TradeMap/>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div
       class="container-fluid mt-sm-5 border-radius-xl"
       :style="{
@@ -119,7 +130,7 @@ onUnmounted(() => {
         loading="lazy"
       >
         <span class="mask bg-gradient-dark"></span>
-        Content
+
       </div>
     </div>
 
